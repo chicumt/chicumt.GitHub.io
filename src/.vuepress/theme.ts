@@ -4,20 +4,23 @@ import sidebar from "./sidebar.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://chicumt.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "chicumt",
+    url: "#",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://s2.loli.net/2024/02/08/oIqplXWNaUQ9hDn.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  
+
+  repo: "chicumt/chicumt.github.io",
 
   docsDir: "src",
+  docsBranch:"master",
 
   // 导航栏
   navbar,
@@ -26,12 +29,12 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "世界最高城市理塘",
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "丁真珍珠（汉语名：丁真），2001年5月7日出生于中国四川省甘孜藏族自治州理塘县，中国内地藏族男歌手 [66-67]，四川文化旅游宣传推广大使",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
@@ -65,7 +68,7 @@ export default hopeTheme({
       Whatsapp: "https://example.com",
       Youtube: "https://example.com",
       Zhihu: "https://example.com",
-      MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
+      // MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
     },
   },
 
@@ -87,6 +90,8 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
+    searchPro: true,
+
 
     // 在启用之前需要安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务器，在生产环境中请自行部署并使用自己的服务器！
